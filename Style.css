@@ -1,0 +1,135 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0B1F3B;
+color:white;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-weight:600;
+}
+
+.logo{
+height:50px;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero p{
+font-size:20px;
+opacity:.8;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+background:#00D4FF;
+padding:12px 24px;
+border-radius:6px;
+margin:10px;
+display:inline-block;
+color:black;
+font-weight:bold;
+}
+
+.btn.outline{
+background:none;
+border:2px solid #00D4FF;
+color:white;
+}
+
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.dark{
+background:#081528;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.feature{
+max-width:250px;
+}
+
+.token-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.flow{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.flow div{
+background:#00D4FF;
+color:black;
+padding:15px 20px;
+border-radius:8px;
+font-weight:bold;
+}
+
+.roadmap{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.roadmap div{
+max-width:200px;
+}
+
+.socials a{
+margin:10px;
+display:inline-block;
+background:#00D4FF;
+color:black;
+padding:10px 20px;
+border-radius:6px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#081528;
+}
