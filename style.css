@@ -47,10 +47,25 @@ height:50px;
 text-align:center;
 padding:120px 20px;
 }
-.hero {
-background: radial-gradient(circle at top, #00D4FF20, #0B1F3B);
+.hero{
+position:relative;
 padding:120px 20px;
 text-align:center;
+overflow:hidden;
+}
+.hero::before{
+content:"";
+position:absolute;
+top:-50%;
+left:-50%;
+width:200%;
+height:200%;
+
+background: radial-gradient(circle, #00D4FF30, transparent 60%);
+
+animation: glowMove 10s linear infinite;
+
+z-index:-1;
 }
 
 .hero h1{
