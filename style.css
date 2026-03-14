@@ -92,6 +92,14 @@ color:black;
 font-weight:bold;
 }
 
+.launch{
+background:#081528;
+padding:60px;
+text-align:center;
+border-radius:10px;
+margin-top:40px;
+}
+
 .btn.outline{
 background:none;
 border:2px solid #00D4FF;
