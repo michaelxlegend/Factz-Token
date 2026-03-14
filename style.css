@@ -52,6 +52,23 @@ font-size:20px;
 opacity:.8;
 }
 
+.token-cards{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#081528;
+padding:25px;
+border-radius:12px;
+width:200px;
+text-align:center;
+box-shadow:0 0 10px #00D4FF30;
+}
+
 .buttons{
 margin-top:30px;
 }
